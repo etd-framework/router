@@ -13,6 +13,17 @@ use \Joomla\Router\Router as JoomlaRouter;
 
 class Router extends JoomlaRouter {
 
-    
+    public function getMaps() {
+
+        return $this->maps;
+
+    }
+
+    public function setMaps(array $maps) {
+
+        $this->maps = $maps;
+
+        return $this;
+    }
 
 }
