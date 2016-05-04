@@ -1,0 +1,24 @@
+{
+  "name": "etdsolutions/router",
+  "description": "Package Router du Framework ETD",
+  "homepage": "https://github.com/etd-framework/router",
+  "license": "Apache-2.0",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Jean-Baptiste Alleaume",
+      "email": "jb.alleaume@etd-solutions.com",
+      "homepage": "http://alleau.me",
+      "role": "Manager"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "joomla/router": "2.0.*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "EtdSolutions\\Router\\": "src/"
+    }
+  }
+}
